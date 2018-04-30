@@ -1,0 +1,6 @@
+<h1>Lista de Quizzes:</h1>
+
+<% for (var i in quizzes){ %>
+ <% var quiz = quizzes [i]; %>
+ <p> Pregunta Número <%= quiz.id %>: <%= quiz.question %>? <%= quiz.answer%></p>
+<% } %>
